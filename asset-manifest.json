@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/courses/static/css/main.d764f5c4.css",
-    "main.js": "/courses/static/js/main.08622292.js",
-    "static/js/453.fbd73456.chunk.js": "/courses/static/js/453.fbd73456.chunk.js",
-    "index.html": "/courses/index.html",
-    "main.d764f5c4.css.map": "/courses/static/css/main.d764f5c4.css.map",
-    "main.08622292.js.map": "/courses/static/js/main.08622292.js.map",
-    "453.fbd73456.chunk.js.map": "/courses/static/js/453.fbd73456.chunk.js.map"
+    "main.css": "/plan-a-tour/static/css/main.d764f5c4.css",
+    "main.js": "/plan-a-tour/static/js/main.c339340f.js",
+    "static/js/453.fbd73456.chunk.js": "/plan-a-tour/static/js/453.fbd73456.chunk.js",
+    "index.html": "/plan-a-tour/index.html",
+    "main.d764f5c4.css.map": "/plan-a-tour/static/css/main.d764f5c4.css.map",
+    "main.c339340f.js.map": "/plan-a-tour/static/js/main.c339340f.js.map",
+    "453.fbd73456.chunk.js.map": "/plan-a-tour/static/js/453.fbd73456.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d764f5c4.css",
-    "static/js/main.08622292.js"
+    "static/js/main.c339340f.js"
   ]
 }
