@@ -2,10 +2,13 @@ import {useState} from "react";
 
 function Card({id, image, info, price, name, removeTour}){
 
+    // readmore stores whether we have some content hidden or not
     const[readmore, setReadmore] = useState(false);
 
+    // if readmore is true then set entire description else clip it to 200 characters
     const description = readmore? info: `${info.substring(0,200)}...`;
 
+    // to handle when readmore is clicked
     function readmoreHandler(){
         setReadmore(!readmore);
     }
@@ -25,6 +28,7 @@ function Card({id, image, info, price, name, removeTour}){
                     </span>
                 </div>
             </div>
+            {/* calls remove tour method on App.js */}
             <button className="btn-red" onClick={()=>removeTour(id)}>
                 Not Interested
             </button>

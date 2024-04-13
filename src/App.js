@@ -8,6 +8,7 @@ function App() {
   
   const [tours, setTours] = useState(data);
 
+  // remove the tour whose button is clicked
   function removeTour(id){
     const newTours = tours.filter(tour => tour.id !== id);
     setTours(newTours);
@@ -15,6 +16,7 @@ function App() {
 
   if(tours.length === 0){
     return(
+      // reset the page and add all the tours in data
       <div className="refresh">
         <h2>No Tours Left</h2>
         <button className="btn-white" onClick={() => setTours(data)}>
